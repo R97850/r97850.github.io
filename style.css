@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.highlight {
+    color : white;
+    background-color : red;
+}
+h1 {
+    background-color: blue;
+  }
+  @media (max-width: 200px) {
+    h1 {
+      background-color: red;
+    }
+  }
+  @media (min-width: 600px) {
+    h1 {
+      background-color: green;
+    }
+  }
